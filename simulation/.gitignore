@@ -1,5 +1,7 @@
 *.pyc
 __pycache__
+make_noisy_circuit.py
+_noise.py
 x_alternating_XXmeas
 x_ZX_interleaved_XXmeas
 x_normal_XXmeas

@@ -22,17 +22,17 @@ from collections import defaultdict
 # Select code types to plot (format: "{base}_{name}", e.g. "z_normal_memory").
 # Set to None to plot all code types found in the data.
 CODE_TYPES_TO_PLOT = [
-    # "z_normal_memory",
-    # "z_ZX_interleaved_Z2Z_X2X_memory",
-    # "z_ZX_interleaved_Z2X_X2Z_memory",
-    # "z_normal_hook_proned_memory",
-    # "z_alternating_memory",
-    # "z_normal_XXmeas",
-    # "z_ZX_interleaved_XXmeas",
-    # "z_alternating_XXmeas",
-    # "x_normal_XXmeas",
-    # "x_ZX_interleaved_XXmeas",
-    # "x_alternating_XXmeas",
+    "z_normal_memory",
+    "z_ZX_interleaved_Z2Z_X2X_memory",
+    "z_ZX_interleaved_Z2X_X2Z_memory",
+    "z_normal_hook_proned_memory",
+    "z_alternating_memory",
+    "z_normal_XXmeas",
+    "z_ZX_interleaved_XXmeas",
+    "z_alternating_XXmeas",
+    "x_normal_XXmeas",
+    "x_ZX_interleaved_XXmeas",
+    "x_alternating_XXmeas",
 ]
 # CODE_TYPES_TO_PLOT = None
 
@@ -47,7 +47,7 @@ P_RANGE = (8e-5, 1.1e-2)
 
 # Select distances to plot. Set to None for all distances.
 # Each distance gets its own color.
-DISTANCES_TO_PLOT = [3, 5]
+DISTANCES_TO_PLOT = [3, 5, 7, 9, 11, 13]
 
 FONT_SIZE_TICK = 18
 FONT_SIZE_LEGEND = 10
