@@ -27,7 +27,7 @@ uv sync
 ```
 
 All Stim circuits used for the numerical results in the paper are in '\simulation'.
-The results of the logical error rates are in '\csv'
+The results of the logical error rates are in '\csv'.
 
 Use the following command to take the samplings;
 ```
@@ -37,7 +37,7 @@ python simulation/run_sinter.py {num_workers}
 Here, '{num_workers}' is the number of parallel workers used by Sinter for Monte Carlo sampling.
 
 'plot.py' plots the results from 'run_sinter.py'. Please, chose the code type that you want to plot.
-The name of code types means '{type of logical observable}\_{protocol}\_{operation}'
+The name of code types means '{type of logical observable}\_{protocol}\_{operation}'.
 
 ```
 
@@ -56,4 +56,4 @@ CODE_TYPES_TO_PLOT = [
 ]
 ```
 
-The plots are in '\figs'
+The plots are in '\figs'.
