@@ -96,8 +96,8 @@ def _process_circuit_args(args):
     return process_circuit(*args)
 
 
-def main(num_workers: int = 7):
-    d_list = [3, 5]
+def main(num_workers: int = 111):
+    d_list = [3, 5, 7, 9, 11, 13]
     p_list = [1e-4, 2e-4, 5e-4, 1e-3, 2e-3, 5e-3, 1e-2]
     l_mag_list = [0]
     z_detector = True
