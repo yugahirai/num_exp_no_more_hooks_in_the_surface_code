@@ -19,7 +19,7 @@
 
 
 ## Usage
-All commands are executed in '/num_exp_no_more_hooks_in_the_surface_code'
+All commands are executed in '/num_exp_no_more_hooks_in_the_surface_code'.
 
 Install the all Python libraries in 'pyproject.toml'. If you can use uv command, execute the following command;
 ```
@@ -36,7 +36,7 @@ python simulation/run_sinter.py {num_workers}
 
 Here, '{num_workers}' is the number of parallel workers used by Sinter for Monte Carlo sampling.
 
-'plot.py' plot the results from 'run_sinter.py'. Please, chose the code type that you want to plot.
+'plot.py' plots the results from 'run_sinter.py'. Please, chose the code type that you want to plot.
 The name of code types means '{type of logical observable}\_{protocol}\_{operation}'
 
 ```
