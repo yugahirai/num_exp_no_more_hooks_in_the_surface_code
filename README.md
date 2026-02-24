@@ -29,9 +29,7 @@ uv sync
 All Stim circuits used for the numerical results in the paper are in '\simulation'.
 The results of the logical error rates are in '\csv'
 
-The all commands are executed in '\num_exp_no_more_hooks_in_the_surface_code'.
-
-Use the following command;
+Use the following command to take the samplings;
 ```
 python simulation/run_sinter.py {num_workers}
 ```
