@@ -36,7 +36,7 @@ python simulation/run_sinter.py {num_workers}
 
 Here, '{num_workers}' is the number of parallel workers used by Sinter for Monte Carlo sampling.
 
-'plot.py' plots the results from 'run_sinter.py'. Please, chose the code type that you want to plot.
+'plot.py' plots the results from 'run_sinter.py'. Please choose the code type that you want to plot.
 The name of code types means '{type of logical observable}\_{protocol}\_{operation}'.
 
 ```
