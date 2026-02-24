@@ -1,0 +1,22 @@
+[project]
+name = "num_exp_no_more_hooks"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "cairosvg>=2.7.1",
+    "fire>=0.7.1",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.7",
+    "pandas>=2.3.3",
+    "pymatching>=2.3.1",
+    "sinter>=1.15.0",
+    "stim>=1.15.0",
+    "stimbposd>=0.1.0",
+    "tqdm>=4.67.1",
+    "python-sat>=0.1.7",
+]
+
+[tool.setuptools.packages.find]
+include = ["s_gate_bombin*", "s_gate_gidney*", "s_gate_proposed_local*", "s_gate_proposed_non_local*", "simulation*"]

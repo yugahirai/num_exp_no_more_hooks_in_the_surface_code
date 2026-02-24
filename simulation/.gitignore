@@ -1,0 +1,4 @@
+circuit
+csv
+*.pyc
+__pycache__
